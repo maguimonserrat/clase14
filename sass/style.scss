@@ -1,0 +1,76 @@
+@mixin familia ($titulos, $textos) {
+
+
+.arriba{
+	padding:30px 0;
+}
+.logo{
+	width:150px;
+}
+
+.search{
+	display:flex;
+	padding-top: 15px;
+	span{
+		padding-top: 7px;
+	}
+	input{
+		font-family: $textos;
+		text-transform: uppercase;
+		border:none;
+		display:inline-block;
+ 	}
+}
+
+.items{
+	padding-top: 15px;
+	font-family: $textos;
+	text-transform: uppercase;
+
+	button{
+		text-transform: uppercase;
+	}
+	span{
+		padding: 10px 5px 0 0;
+	}
+
+}
+
+.menu{
+	font-family: $textos;
+	padding: 20px 0;
+	ul{
+		li{
+			padding: 0 20px;
+		}
+	}
+	a{	
+		color:black;
+	}
+	button{
+		border:none;
+	}
+}
+
+.izq{
+	h3{
+	color:gray;
+	font-size:15px;
+	font-family: $textos;
+	text-transform: uppercase;
+
+	}
+	button{
+		border:none;
+		text-align: left;
+	}
+	.celeste{
+		color: lightblue;
+	}
+}
+
+
+
+}
+
+@include familia (Crimson, Source Sans Pro);

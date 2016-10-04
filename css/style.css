@@ -1,0 +1,48 @@
+.arriba {
+  padding: 30px 0; }
+
+.logo {
+  width: 150px; }
+
+.search {
+  display: flex;
+  padding-top: 15px; }
+  .search span {
+    padding-top: 7px; }
+  .search input {
+    font-family: Source Sans Pro;
+    text-transform: uppercase;
+    border: none;
+    display: inline-block; }
+
+.items {
+  padding-top: 15px;
+  font-family: Source Sans Pro;
+  text-transform: uppercase; }
+  .items button {
+    text-transform: uppercase; }
+  .items span {
+    padding: 10px 5px 0 0; }
+
+.menu {
+  font-family: Source Sans Pro;
+  padding: 20px 0; }
+  .menu ul li {
+    padding: 0 20px; }
+  .menu a {
+    color: black; }
+  .menu button {
+    border: none; }
+
+.izq h3 {
+  color: gray;
+  font-size: 15px;
+  font-family: Source Sans Pro;
+  text-transform: uppercase; }
+.izq button {
+  border: none;
+  text-align: left; }
+.izq .celeste {
+  color: lightblue; }
+
+/*# sourceMappingURL=style.css.map */

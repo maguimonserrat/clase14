@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>boostrap</title>
+	<!-- Latest compiled and minified CSS form con nombre mail y text area-->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Source+Sans+Pro" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<body>
+	<section class="arriba">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 text-left search">
+					<span class="ion-search"></span>
+					<input type="text" class="form-control" placeholder="search">	
+				</div>
+				<div class="col-lg-4">
+					<img src="imgs/logo.png" class="center-block logo">
+				</div>
+				<div class="col-lg-4 text-right items">
+					<span class="ion-bag">Items</span>
+					<button class="btn btn-default"> cad
+					</button>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center menu">
+					<ul class="list-inline">
+						<li>
+							<a href="#">Home</a>
+						</li>
+							<li>
+							<div class="dropdown">
+						  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						    Shop
+						    <span class="caret"></span>
+						  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						    <li><a href="#">Action</a></li>
+						    <li><a href="#">Another action</a></li>
+						    <li><a href="#">Something else here</a></li>
+						    <li role="separator" class="divider"></li>
+						    <li><a href="#">Separated link</a></li>
+						  </ul>
+						</div>
+						</li>
+						<li>
+							<a href="#">Blog</a>
+						</li>
+						<li>
+							<a href="#">Theme Features</a>
+						</li>
+						<li>
+							<a href="#">Account</a>
+						</li>
+					</ul>	
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 izq">
+					<h3>Shop</h3>
+					<div class="btn-group-vertical">
+ 					<div class="btn-group">
+							 <button type="button" class="btn btn-default dropdown-toggle celeste"
+							         data-toggle="dropdown">
+							   Men <span class="caret"></span>
+							 </button>
+
+							 <ul class="dropdown-menu" role="menu">
+							   <li><a href="#">classics</a></li>
+							   <li><a href="#">New Arrivals</a></li>
+							   <li><a href="#">Legacy Line</a></li>
+							   <li><a href="#">Sunwear</a></li>
+							 </ul>
+						</div>
+
+						<div class="btn-group">
+							 <button type="button" class="btn btn-default dropdown-toggle celeste"
+							         data-toggle="dropdown">
+							  Women <span class="caret"></span>
+							 </button>
+
+							 <ul class="dropdown-menu" role="menu">
+							   <li><a href="#">classics</a></li>
+							   <li><a href="#">New Arrivals</a></li>
+							   <li><a href="#">Legacy Line</a></li>
+							   <li><a href="#">Sunwear</a></li>
+							 </ul>
+						</div>
+
+						<div class="btn-group">
+							 <button type="button" class="btn btn-default dropdown-toggle"
+							         data-toggle="dropdown">
+							  Lookbook <span class="caret"></span>
+							 </button>
+
+							 <ul class="dropdown-menu" role="menu">
+							   <li><a href="#">FW 2014</a></li>
+							 </ul>
+						</div>
+						</div>
+
+				</div>
+				<div class="col-md-10">
+					  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						 <!-- Indicators -->
+						 <ol class="carousel-indicators">
+						   <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						   <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						   <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						 </ol>
+
+						 <!-- Wrapper for slides -->
+						 <div class="carousel-inner" role="listbox">
+						   <div class="item active">
+						     <img src="imgs/0.jpg" alt="...">
+						     <div class="carousel-caption">
+						       <h3>droga</h3>
+						     </div>
+						   </div>
+						   <div class="item">
+						     <img src="imgs/0.jpg" alt="...">
+						     <div class="carousel-caption">
+						       droga parte 2
+						       <h2>droga grande</h2>
+						     </div>
+						   </div>
+						   ...
+						 </div>
+
+						 <!-- Controls -->
+						 <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						   <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						   <span class="sr-only">Previous</span>
+						 </a>
+						 <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						   <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						   <span class="sr-only">Next</span>
+						 </a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>
